@@ -1,2 +1,2 @@
 # CPE
-Just share my coding.
+Just share my code.
