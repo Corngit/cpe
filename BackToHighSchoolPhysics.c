@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int BackToHighSchoolPhysics(){
     int v,t;
 
     while(scanf("%d %d",&v,&t) == 2){

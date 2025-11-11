@@ -15,7 +15,7 @@ void bulid_fibs(){
     }
 }
 
-int main(){
+int FibonaccimalBase(){
     int N,R; //有N個數字, 數字為R
     scanf("%d",&N);
     bulid_fibs();

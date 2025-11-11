@@ -1,9 +1,8 @@
 #include<stdio.h>   //換行之間會有/0的問題 所以要使用getchar()可以涵蓋  ( scanf() 遇到空格會直接結束，gets()可以包含空格)
 
-int main(){
+int LargestSquares(){
     int T;   //T為測資數量
-    int MM=110,NN=21;
-    char square[MM][NN]; //矩形大小
+    char square[110][21]; //矩形大小
     int Q; //Q為詢問數量
     int r,c;
 
