@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int What_is_the_probability(){
+int main(){
     double prob,p;
     int S;
     int N,i;

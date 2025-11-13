@@ -3,7 +3,7 @@
 
 int main() {
     char lines[105][105];
-    int lengths[105];
+    int lengths[105];// Array to store lengths of each line
     int n = 0, max_length = 0,c;
 
     while((c = getchar()) != EOF) {

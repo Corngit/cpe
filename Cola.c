@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int Cola(){
+int main(){
     int N;
     int a,b;
     while(scanf("%d",&N) == 1){

@@ -1,6 +1,6 @@
 #include<stdio.h>   //是用bubble sort啦(比較相鄰兩個) selection sort 是會做標記再換(因此不一定是相鄰)
 
-int Train_Swapping(){
+int main(){
 int N,L;          //N表示測資數量 L表示火車長度
 int S;            //S表示最少交換次數 
 int array[50];

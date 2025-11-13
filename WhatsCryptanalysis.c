@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int WhatsCryptanalysis(){
+int main(){
     int count;
     int ch;
     scanf("%d", &count);

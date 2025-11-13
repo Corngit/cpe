@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int The_3n1_problem(){
+int main(){
     int n,a,b;
     int i,j,max;
     int num;

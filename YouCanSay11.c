@@ -2,7 +2,7 @@
 #include<string.h>
 #include<stdlib.h>
 
-int YouCanSay11(){
+int main(){
     char N[1001] ;
     int a;   //a是兩數相減
     int c,d;

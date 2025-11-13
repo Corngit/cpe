@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Odd_Sum(){
+int main(){
     int a,b;
     int count;
     scanf("%d",&count);
