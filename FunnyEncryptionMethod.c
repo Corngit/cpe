@@ -27,7 +27,7 @@ int main(){
         while(y2 >= 0){
             x2 = y2%10;
             x3 = x2/2;
-            if(x3%2 ==1){
+            if(x2%2 ==1){
                 count2 += 1;
             }
             while( x3 >= 0){
