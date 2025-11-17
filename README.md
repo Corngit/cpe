@@ -10,6 +10,9 @@ Just share my code.
 ### c082.00118 - Mutant Flatworld Expolrers
 
 * ```while loop```、```nested code(if-else)```
+
 hint：Corner detection and fall-prevention mechanisms should be activated when the robot enters boundary regions to avoid unintended drops or loss of stability
+
+---
 
 (to be continued)
