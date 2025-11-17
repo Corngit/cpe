@@ -11,7 +11,7 @@ Just share my code.
 
 * ```while loop```、```nested code(if-else)```
 
-hint：Corner detection and fall-prevention mechanisms should be activated when the robot enters boundary regions to avoid unintended drops or loss of stability
+hint：Corner cells are handled by the same boundary and scent logic, preventing multiple robots from being lost at the same edge position
 
 ---
 
