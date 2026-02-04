@@ -7,7 +7,6 @@ int main(){
     for(long int i = 0; i < N; i++){
         long int x1, y1, x2, y2;
         scanf("%ld %ld %ld %ld", &x1, &y1, &x2, &y2);
-        //(0,0)到(x1,y1)的距離
         long int step1 = ((x1 + y1 + 1)* (x1 + y1)) / 2 + x1; 
         long int step2 = ((x2 + y2 + 1)* (x2 + y2)) / 2 + x2; 
         
