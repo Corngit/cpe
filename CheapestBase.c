@@ -19,7 +19,7 @@ int main(void) {
             int n;
             scanf("%d", &n);
 
-            long long best = (1LL << 60);
+            long long best = (1LL << 60); //1LL 是 long long 型態 1 左移60位元
             int ans[40], cnt = 0;
 
             for (int base = 2; base <= 36; base++) {
@@ -27,9 +27,9 @@ int main(void) {
                 long long sum = 0;
 
                 if (tmp == 0) {
-                    sum = cost[0];
+                    sum = cost[0];                 //特別處理數字 0 的情況，因為 while 迴圈不會進入，所以直接加上 cost[0]
                 } else {
-                    while (tmp > 0) {
+                    while (tmp > 0) {             //計算在該 base 下的花費 取餘數後除基數
                         sum += cost[tmp % base];
                         tmp /= base;
                     }
