@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+int main(void) {
+    int T;
+    if (scanf("%d", &T) != 1) 
+    	return 0;
+
+    for (int tc = 1; tc <= T; tc++) {
+        int cost[36];
+        for (int i = 0; i < 36; i++) {
+        	scanf("%d", &cost[i]);
+		}
+        int Q;
+        scanf("%d", &Q);
+
+        printf("Case %d:\n", tc);
+
+        while (Q--) {
+            int n;
+            scanf("%d", &n);
+
+            long long best = (1LL << 60);
+            int ans[40], cnt = 0;
+
+            for (int base = 2; base <= 36; base++) {
+                int tmp = n;
+                long long sum = 0;
+
+                if (tmp == 0) {
+                    sum = cost[0];
+                } else {
+                    while (tmp > 0) {
+                        sum += cost[tmp % base];
+                        tmp /= base;
+                    }
+                }
+
+                if (sum < best) {
+                    best = sum;
+                    cnt = 0;
+                    ans[cnt++] = base;
+                } else if (sum == best) {
+                    ans[cnt++] = base;
+                }
+            }
+
+            printf("Cheapest base(s) for number %d:", n);
+            for (int i = 0; i < cnt; i++){ 
+            	printf(" %d", ans[i]);
+            }
+           	putchar('\n');
+        	}
+        	if(tc!=T){
+        		putchar('\n');
+        	}
+    }
+
+    return 0;
+}
