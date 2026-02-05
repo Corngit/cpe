@@ -9,9 +9,9 @@ int main(){
         int empty = N;
         
         while(empty >= 3){
-            int new = empty/3;
-            total = total + new;
-            empty = empty%3 + new;
+            int get = empty/3;
+            total = total + get;
+            empty = empty%3 + get;
         }
 
         if(empty == 2){

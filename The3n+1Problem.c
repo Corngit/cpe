@@ -31,7 +31,7 @@ int main(){
         max = num;
     }
     }
-    printf("%d %d %d \n",i,j,max);  
+    printf("%d %d %d\n",i,j,max);  
     }
     return 0;
 }
